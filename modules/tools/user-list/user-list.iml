@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/classes" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="contentrepo-spi" level="project" />
+    <orderEntry type="library" name="target" level="project" />
+    <orderEntry type="library" name="glassfish-embedded-all-3.0-b74b" level="project" />
+    <orderEntry type="library" name="presencemanager-client" level="project" />
+    <orderEntry type="library" name="jaxb" level="project" />
+    <orderEntry type="library" name="orb-client" level="project" />
+    <orderEntry type="library" name="audiomanager-client" level="project" />
+    <orderEntry type="library" name="dist3" level="project" />
+    <orderEntry type="library" name="dist" level="project" />
+    <orderEntry type="library" name="avatarbase-client" level="project" />
+    <orderEntry type="library" name="webstart" level="project" />
+    <orderEntry type="library" name="audiomanager-server" level="project" />
+    <orderEntry type="library" name="presencemanager-server" level="project" />
+    <orderEntry type="library" name="contentrepo-client" level="project" />
+    <orderEntry type="library" name="app" level="project" />
+    <orderEntry type="library" name="webstart1" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="audio-manager" />
+    <orderEntry type="module" module-name="orb" />
+    <orderEntry type="module" module-name="avatarbase" />
+    <orderEntry type="module" module-name="presence-manager" />
+    <orderEntry type="module" module-name="content-repository" />
+  </component>
+</module>
