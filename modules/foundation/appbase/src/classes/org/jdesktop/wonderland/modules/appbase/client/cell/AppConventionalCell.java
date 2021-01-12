@@ -222,14 +222,20 @@ public abstract class AppConventionalCell extends App2DCell {
     }
 
     private void startTheSlave (String connectionInfo) {
+        //fixme:
+       // connectionInfo.replace('172.31.26.48', '3.138.182.243')
+        logger.warning("Before connectionInfo. " + connectionInfo);
+        connectionInfo = connectionInfo.replace("172.31.26.48","3.138.182.243");
         logger.info("Starting app slave.");
+        logger.warning("Starting app slave. " + connectionInfo);
+        
         app = startSlave(connectionInfo, fvi);
         if (app != null) {
             slaveStarted = true;
             logger.info("Connected slave to app at " + connectionInfo);
         } else {
             slaveStarted = false;
-            logger.warning("Could not create slave app, connectionInfo = " + connectionInfo);
+            logger.warning("Could not create Junior slave app, connectionInfo = " + connectionInfo);
         }
     }
 
