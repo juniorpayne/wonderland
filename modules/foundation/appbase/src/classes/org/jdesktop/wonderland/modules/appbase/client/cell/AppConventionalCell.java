@@ -235,7 +235,7 @@ public abstract class AppConventionalCell extends App2DCell {
             logger.info("Connected slave to app at " + connectionInfo);
         } else {
             slaveStarted = false;
-            logger.warning("Could not create Junior slave app, connectionInfo = " + connectionInfo);
+            logger.warning("Could not create Junior Payne slave app, connectionInfo = " + connectionInfo);
         }
     }
 
