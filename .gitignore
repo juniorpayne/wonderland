@@ -1,0 +1,36 @@
+# Build directories
+*/build/
+*/dist/
+build/
+dist/
+
+# NetBeans project files
+**/nbproject/nb.properties
+nbproject/nb.properties
+
+# Generated files
+utils/wonderland-version/src/classes/org/jdesktop/wonderland/utils/version/Version.java
+
+# Module build artifacts
+modules/dist/
+core/build/
+core/dist/
+web/*/build/
+web/*/dist/
+modules/*/build/
+modules/*/dist/
+modules/*/*/build/
+modules/*/*/dist/
+utils/*/build/
+utils/*/dist/
+
+# Specific runtime files
+modules/tools/voicebridge/lib/zip/bridge-echo.zip
+modules/tools/voicebridge/lib/zip/bridge-recorder.zip
+
+# SGS tutorial files - these get modified by the build
+core/ext/sgs/sgs-server-dist-0.9.10/tutorial/conf/HelloLogger.properties
+core/ext/sgs/sgs-server-dist-0.9.10/tutorial/conf/HelloPersistence.properties
+core/ext/sgs/sgs-server-dist-0.9.10/tutorial/conf/HelloPersistence2.properties
+core/ext/sgs/sgs-server-dist-0.9.10/tutorial/conf/HelloTimer.properties
+core/ext/sgs/sgs-server-dist-0.9.10/tutorial/conf/HelloWorld.properties
